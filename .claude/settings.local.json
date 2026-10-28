@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"import\\(''''/Users/oxd/Projects/hagrag/node_modules/p-limit/index.js''''\\).then\\(m => console.log\\(Object.keys\\(m\\)\\)\\)\")",
+      "Bash(node:*)"
+    ]
+  }
+}

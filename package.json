@@ -1,0 +1,29 @@
+{
+  "name": "hagrag",
+  "version": "0.0.1",
+  "description": "Hypertext-Aware GraphRAG",
+  "keywords": [
+    "RAG",
+    "semantic",
+    "graph"
+  ],
+  "license": "ISC",
+  "author": "Slobodan Jovanovic",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "hagrag": "./bin/hagrag.js",
+    "hagrag-mcp": "./bin/hagrag-mcp.js"
+  },
+  "scripts": {
+    "test": "node test/crawl-and-query.js"
+  },
+  "dependencies": {
+    "@crawlith/core": "^0.1.2",
+    "@lightpanda/browser": "^1.2.0",
+    "@ternlight/base": "^0.1.1",
+    "better-sqlite3": "^13.0.3",
+    "cheerio": "^1.2.0",
+    "sqlite-vec": "^0.1.9"
+  }
+}
