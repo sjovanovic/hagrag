@@ -1,6 +1,6 @@
 {
   "name": "hagrag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hypertext-Aware GraphRAG",
   "keywords": [
     "RAG",
@@ -20,7 +20,6 @@
   },
   "dependencies": {
     "@crawlith/core": "^0.1.2",
-    "@lightpanda/browser": "^1.2.0",
     "@ternlight/base": "^0.1.1",
     "better-sqlite3": "^13.0.3",
     "cheerio": "^1.2.0",
